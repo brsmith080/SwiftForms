@@ -4,7 +4,4 @@
    <FileRef
       location = "group:SwiftForms/SwiftForms.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Example/Example.xcodeproj">
-   </FileRef>
 </Workspace>
