@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		48A36D721A89AB2D00B1C708 /* SwiftForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A36D711A89AB2D00B1C708 /* SwiftForms.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48A36D781A89AB2D00B1C708 /* SwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A36D6C1A89AB2D00B1C708 /* SwiftForms.framework */; };
-		48A36D7F1A89AB2E00B1C708 /* SwiftFormsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A36D7E1A89AB2E00B1C708 /* SwiftFormsTests.swift */; };
 		48A36D9E1A89AB6900B1C708 /* FormBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A36D8A1A89AB6900B1C708 /* FormBaseCell.swift */; };
 		48A36D9F1A89AB6900B1C708 /* FormTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A36D8B1A89AB6900B1C708 /* FormTitleCell.swift */; };
 		48A36DA01A89AB6900B1C708 /* FormValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A36D8C1A89AB6900B1C708 /* FormValueCell.swift */; };
@@ -30,21 +28,10 @@
 		48A36DAF1A89AB6900B1C708 /* FormSectionDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A36D9D1A89AB6900B1C708 /* FormSectionDescriptor.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		48A36D791A89AB2D00B1C708 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 48A36D631A89AB2D00B1C708 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 48A36D6B1A89AB2D00B1C708;
-			remoteInfo = SwiftForms;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		48A36D6C1A89AB2D00B1C708 /* SwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A36D701A89AB2D00B1C708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48A36D711A89AB2D00B1C708 /* SwiftForms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftForms.h; sourceTree = "<group>"; };
-		48A36D771A89AB2D00B1C708 /* SwiftFormsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFormsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A36D7D1A89AB2E00B1C708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48A36D7E1A89AB2E00B1C708 /* SwiftFormsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFormsTests.swift; sourceTree = "<group>"; };
 		48A36D8A1A89AB6900B1C708 /* FormBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormBaseCell.swift; sourceTree = "<group>"; };
@@ -75,14 +62,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48A36D741A89AB2D00B1C708 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48A36D781A89AB2D00B1C708 /* SwiftForms.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -99,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				48A36D6C1A89AB2D00B1C708 /* SwiftForms.framework */,
-				48A36D771A89AB2D00B1C708 /* SwiftFormsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,24 +198,6 @@
 			productReference = 48A36D6C1A89AB2D00B1C708 /* SwiftForms.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		48A36D761A89AB2D00B1C708 /* SwiftFormsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48A36D851A89AB2E00B1C708 /* Build configuration list for PBXNativeTarget "SwiftFormsTests" */;
-			buildPhases = (
-				48A36D731A89AB2D00B1C708 /* Sources */,
-				48A36D741A89AB2D00B1C708 /* Frameworks */,
-				48A36D751A89AB2D00B1C708 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				48A36D7A1A89AB2D00B1C708 /* PBXTargetDependency */,
-			);
-			name = SwiftFormsTests;
-			productName = SwiftFormsTests;
-			productReference = 48A36D771A89AB2D00B1C708 /* SwiftFormsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -248,9 +208,6 @@
 				ORGANIZATIONNAME = "Brandon Smith";
 				TargetAttributes = {
 					48A36D6B1A89AB2D00B1C708 = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-					48A36D761A89AB2D00B1C708 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -268,20 +225,12 @@
 			projectRoot = "";
 			targets = (
 				48A36D6B1A89AB2D00B1C708 /* SwiftForms */,
-				48A36D761A89AB2D00B1C708 /* SwiftFormsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		48A36D6A1A89AB2D00B1C708 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48A36D751A89AB2D00B1C708 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -316,23 +265,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48A36D731A89AB2D00B1C708 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48A36D7F1A89AB2E00B1C708 /* SwiftFormsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		48A36D7A1A89AB2D00B1C708 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 48A36D6B1A89AB2D00B1C708 /* SwiftForms */;
-			targetProxy = 48A36D791A89AB2D00B1C708 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		48A36D801A89AB2E00B1C708 /* Debug */ = {
@@ -352,6 +285,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -398,6 +332,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -430,7 +365,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SwiftForms/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -447,40 +382,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SwiftForms/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		48A36D861A89AB2E00B1C708 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftFormsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		48A36D871A89AB2E00B1C708 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftFormsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -501,15 +406,6 @@
 			buildConfigurations = (
 				48A36D831A89AB2E00B1C708 /* Debug */,
 				48A36D841A89AB2E00B1C708 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		48A36D851A89AB2E00B1C708 /* Build configuration list for PBXNativeTarget "SwiftFormsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48A36D861A89AB2E00B1C708 /* Debug */,
-				48A36D871A89AB2E00B1C708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
